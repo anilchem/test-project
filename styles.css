@@ -9,21 +9,41 @@
      grid-template-rows: 100px 300px 250px 90px;
      grid-template-columns: repeat(3, 1fr) 100px;
      grid-gap: 5px;
+         overflow:hidden:
+         text-overflow:ellipsis;
     
      
     }
     
      .div1{ background-color: #ff4757; 
       grid-column: 1/-1;
+         overflow:hidden:
+         text-overflow:ellipsis;
      }
-     .div2{ background-color: #2ed573; }
-     .div3{ background-color: #1e90ff; }
-     .div4{ background-color: #5352ed; }
-     .div5{background-color: black;
-         grid-column: 4/5;grid-row: 2/4;}
+     .div2{ background-color: #2ed573;
+         overflow:hidden:
+         text-overflow:ellipsis;  
+      }
+     .div3{ background-color: #1e90ff;
+           overflow:hidden:
+         text-overflow:ellipsis;
+        }
+     .div4{ background-color: #5352ed;
+          overflow:hidden:
+         text-overflow:ellipsis;
+         }
+     .div5{background-color: auto;
+         grid-column: 4/5;grid-row: 2/4;
+           overflow:hidden:
+         text-overflow:ellipsis;
+          }
      .div6{ background-color: #ffa502; 
       grid-column: 1/ 4;
+          overflow:hidden:
+         text-overflow:ellipsis;
      }
      .div7{ background-color: #00d2d3;
       grid-column: 1/-1;
+          overflow:hidden:
+         text-overflow:ellipsis;
       }
